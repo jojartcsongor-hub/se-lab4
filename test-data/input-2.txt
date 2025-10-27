@@ -1,0 +1,19 @@
+# --- Teszt 1: Hajó létrehozása, mindkét torpedótár tele, hibaarány 0%
+GT4500,10,0,10,0
+TORPEDO,SINGLE
+TORPEDO,SINGLE
+TORPEDO,ALL
+
+
+# --- Teszt 2: Primary üres, secondary tele
+GT4500,0,0,5,0
+TORPEDO,SINGLE
+TORPEDO,ALL
+
+# --- Teszt 3: Secondary üres, primary tele
+GT4500,5,0,0,0
+TORPEDO,SINGLE
+
+# --- Teszt 4: Mindkettő üres
+GT4500,0,0,0,0
+

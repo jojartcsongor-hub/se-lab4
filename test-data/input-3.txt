@@ -1,0 +1,28 @@
+# --- Teszt 1: Hajó létrehozása (mindkét torpedótár tele)
+GT4500,10,0,10,0
+TORPEDO,SINGLE
+TORPEDO,SINGLE
+TORPEDO,ALL
+
+# --- Teszt 2: Primary üres, secondary tele
+GT4500,0,0,5,0
+TORPEDO,SINGLE
+TORPEDO,ALL
+
+# --- Teszt 3: Secondary üres, primary tele
+GT4500,5,0,0,0
+TORPEDO,SINGLE
+TORPEDO,ALL
+
+# --- Teszt 4: Mindkettő üres
+GT4500,0,0,0,0
+TORPEDO,SINGLE
+TORPEDO,ALL
+
+# --- Teszt 5: Csak a primary tud lőni ALL módban
+GT4500,3,0,0,0
+TORPEDO,ALL
+
+# --- Teszt 6: Csak a secondary tud lőni ALL módban
+GT4500,0,0,3,0
+TORPEDO,ALL
