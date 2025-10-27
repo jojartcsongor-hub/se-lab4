@@ -1,0 +1,28 @@
+# --- Teszt 1
+SUCCESS
+SUCCESS
+SUCCESS
+SUCCESS
+
+# --- Teszt 2
+SUCCESS
+SUCCESS
+SUCCESS
+
+# --- Teszt 3
+SUCCESS
+SUCCESS
+SUCCESS
+
+# --- Teszt 4
+SUCCESS
+FAIL
+FAIL
+
+# --- Teszt 5
+SUCCESS
+SUCCESS
+
+# --- Teszt 6
+SUCCESS
+SUCCESS
